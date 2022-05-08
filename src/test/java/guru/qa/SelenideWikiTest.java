@@ -23,10 +23,5 @@ public class SelenideWikiTest {
         $$(".markdown-body").find(Condition.text("Using JUnit5 extend test class")).shouldBe(Condition.visible);
 
 
-
-
-        // $(".markdown-body").shouldHave(Condition.text("Soft assertions"));
-       // $(".markdown-body").$(byText("Soft assertions")).click();
-
     }
 }
